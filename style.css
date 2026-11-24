@@ -12,5 +12,17 @@ main {
   padding: 3rem 1.25rem;
 }
 
-a { color: #62416e; }
-article { white-space: pre-wrap; }
+a {
+  color: #62416e;
+}
+
+article {
+  color: #29242c;
+  white-space: normal;
+  line-height: 1.25;
+}
+
+article p {
+  margin: 0 0 1em 0;
+  padding: 0;
+}
