@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="es">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ page.title }}</title>
+<link rel="stylesheet" href="{{ '/style.css' | relative_url }}">
+
+<main>
+  <nav><a href="{{ '/index.html' | relative_url }}">← Table of contents</a></nav>
+  <h1>{{ page.title }}</h1>
+  <article>{{ content }}</article>
+</main>
+</html>
