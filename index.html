@@ -1,3 +1,5 @@
+---
+---
 <!doctype html>
 <html lang="en">
 <meta charset="utf-8">
@@ -8,7 +10,14 @@
 <main>
   <h1>Writing</h1>
   <ul>
-    <li><a href="reflexiones.html">reflexiones sobre el amor</a></li>
+    {% assign writings = site.pages | where: "layout", "writing" | sort: "order" %}
+    {% for writing in writings %}
+      <li>
+        <a href="{{ writing.url | relative_url }}">
+          {{ writing.title }}
+        </a>
+      </li>
+    {% endfor %}
   </ul>
 </main>
 </html>
