@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: linear-gradient(160deg, #e8e0f0, #faf6ef 55%);
+  color: #29242c;
+  font: 1.15rem/1.7 Georgia, serif;
+}
+
+main {
+  max-width: 62ch;
+  margin: auto;
+  padding: 3rem 1.25rem;
+}
+
+a { color: #62416e; }
+article { white-space: pre-wrap; }
