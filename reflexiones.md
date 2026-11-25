@@ -64,7 +64,7 @@ por aquello que ellos mismos tampoco pudieron percibir.
 ~*~ 
 
 es curioso, no?  
-las palabras que usamos, en inglés,
+las palabras que usamos, especialmente en inglés,
 como si el amor fuera algo 
 tan frágil como hermoso
 
@@ -124,14 +124,12 @@ no decide en qué debe convertirse.
 simplemente hace posible  
 que llegue a ser.
 
-y quizá eso debería ser el amor.  
+y quizá eso debería ser el amor:  
 no la llegada de alguien  
 que nos entrega lo que nos falta,  
 sino el encuentro con alguien  
-en cuya presencia
-
-ya no tenemos que ser  
-menos de lo que somos.
+en cuya presencia ya no tenemos 
+que ser menos de lo que somos.
 
 no encontrar a alguien  
 sin quien no podamos existir,  
@@ -180,11 +178,11 @@ podamos mirar atrás y decir:
 yo estaba viva,  
 pero no existía.
 
-estaba aquí,  
+yo estaba aquí,  
 pero no estaba presente.
 
 era yo,  
-pero apenas.
+pero apenas mas.
 
 hasta que, de alguna manera,  
 llegué a ser.
