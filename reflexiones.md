@@ -187,7 +187,7 @@ pero apenas mas.
 hasta que, de alguna manera,  
 llegué a ser.
 
-y entonces fui.
+y entonces fui mas.
 
 no porque alguien me hubiera completado.  
 no porque antes estuviera incompleta.
