@@ -44,19 +44,19 @@ y no es que sea un concepto desconocido,
 descrito de otras maneras.
 
 para usar el inglés de nuevo:
-the emotional say to respond to skeptics 
+la expresión emocional con la que respondemos a los escépticos:
 "I had a gut feeling", "tuve un presentimiento"
-the poetic say as a way to acknowledge a physical sensation of knowing
+la expresión poética con la que reconocemos la sensación física de saber algo:
 "I could feel it in my bones," "podía sentirlo en los huesos."
 
-maybe the linguists who gave us those phrases
-truly did lack the ability to utilize other senses
-or maybe they were all just broken hearted nerds
-who lacked the capacity to believe that love begins again.
- 
-no culpamos al gusano por no comprender  
+quizá los lingüistas que nos dieron esas expresiones
+realmente carecían de la capacidad de utilizar otros sentidos,
+o quizá no eran más que nerds con el corazón roto
+que carecían de la capacidad de creer que el amor vuelve a empezar.
+
+no culpamos al gusano por no comprender
 un sentido que ni siquiera sabe que le falta.
-por tanto, quizá no podamos culpar a los lingüistas 
+por tanto, quizá no podamos culpar a los lingüistas
 por aquello que ellos mismos tampoco pudieron percibir.
 
 ...
