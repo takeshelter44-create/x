@@ -1,158 +1,60 @@
-* {
-  box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Para ti</title>
+  <link rel="stylesheet" href="landing.css">
+</head>
+<body>
+  <main class="page">
 
-html {
-  scroll-behavior: smooth;
-}
+    <section class="hero">
+      <div class="lantern">✦</div>
 
-body {
-  margin: 0;
-  min-height: 100vh;
-  color: #f2eadf;
-  font-family: Georgia, serif;
-  background:
-    radial-gradient(circle at top, rgba(93, 120, 75, 0.18), transparent 35%),
-    linear-gradient(to bottom, #1d261c 0%, #243224 35%, #2f3a2c 100%);
-}
+      <p class="eyebrow">un rincón en el bosque</p>
 
-.page {
-  min-height: 100vh;
-  background:
-    linear-gradient(rgba(12, 16, 12, 0.18), rgba(12, 16, 12, 0.3));
-}
+      <h1>Para ti.</h1>
 
-.hero {
-  min-height: 90vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 3rem 1.5rem 2rem;
-  text-align: center;
-}
+      <p class="intro">
+        Encontraste un lugar tranquilo.
+        <br>
+        Podemos quedarnos aquí un rato.
+      </p>
 
-.lantern {
-  width: 68px;
-  height: 68px;
-  border-radius: 50%;
-  display: grid;
-  place-items: center;
-  margin-bottom: 1rem;
-  font-size: 1.4rem;
-  color: #ffe7a8;
-  background: radial-gradient(circle, rgba(255, 234, 165, 0.28), rgba(255, 234, 165, 0.05));
-  box-shadow: 0 0 30px rgba(255, 226, 147, 0.22);
-}
+      <a class="enter" href="#explorar">Entrar</a>
+    </section>
 
-.eyebrow {
-  margin: 0 0 0.8rem;
-  font-size: 0.82rem;
-  letter-spacing: 0.16em;
-  text-transform: uppercase;
-  color: #c7c8b0;
-}
+    <section id="explorar" class="menu">
+      <a class="door" href="biblioteca.html">
+        <span class="icon">🍂</span>
+        <div>
+          <h2>Escritos</h2>
+          <p>Palabras guardadas aquí.</p>
+        </div>
+      </a>
 
-h1 {
-  margin: 0;
-  font-size: clamp(2.7rem, 8vw, 5rem);
-  font-weight: normal;
-  color: #f5efe5;
-}
+      <a class="door" href="#">
+        <span class="icon">🪵</span>
+        <div>
+          <h2>Pequeñas cosas</h2>
+          <p>Cosas nuestras, pequeñas y queridas.</p>
+        </div>
+      </a>
 
-.intro {
-  max-width: 34rem;
-  margin: 1.4rem auto 0;
-  font-size: 1.1rem;
-  line-height: 1.8;
-  color: #ddd6c7;
-}
+      <a class="door" href="#">
+        <span class="icon">🌧️</span>
+        <div>
+          <h2>Días de lluvia</h2>
+          <p>Para volver cuando el mundo pese un poco.</p>
+        </div>
+      </a>
+    </section>
 
-.enter {
-  display: inline-block;
-  margin-top: 2rem;
-  padding: 0.9rem 1.6rem;
-  border-radius: 999px;
-  text-decoration: none;
-  color: #f7efe1;
-  background: linear-gradient(to bottom, #6f4e37, #5d402d);
-  border: 1px solid rgba(255,255,255,0.12);
-  box-shadow:
-    inset 0 1px 0 rgba(255,255,255,0.12),
-    0 6px 20px rgba(0,0,0,0.18);
-}
+    <footer>
+      hecho con cariño, entre árboles y distancia
+    </footer>
 
-.enter:hover {
-  filter: brightness(1.05);
-}
-
-.menu {
-  width: min(900px, 92%);
-  margin: 0 auto;
-  padding: 0 0 4rem;
-  display: grid;
-  gap: 1rem;
-}
-
-.door {
-  display: grid;
-  grid-template-columns: 56px 1fr;
-  gap: 1rem;
-  align-items: center;
-  text-decoration: none;
-  color: inherit;
-  padding: 1rem 1.1rem;
-  border-radius: 16px;
-  background:
-    linear-gradient(to bottom, rgba(101, 72, 48, 0.92), rgba(78, 55, 37, 0.95));
-  border: 1px solid rgba(241, 223, 189, 0.1);
-  box-shadow:
-    inset 0 1px 0 rgba(255,255,255,0.08),
-    0 10px 24px rgba(0,0,0,0.16);
-}
-
-.door:hover {
-  transform: translateY(-2px);
-}
-
-.icon {
-  width: 56px;
-  height: 56px;
-  border-radius: 12px;
-  display: grid;
-  place-items: center;
-  font-size: 1.35rem;
-  background: rgba(34, 47, 31, 0.32);
-}
-
-.door h2 {
-  margin: 0 0 0.25rem;
-  font-size: 1.3rem;
-  font-weight: normal;
-  color: #fff4df;
-}
-
-.door p {
-  margin: 0;
-  color: #e4d7c2;
-  font-size: 0.98rem;
-  line-height: 1.5;
-}
-
-footer {
-  text-align: center;
-  padding: 1.5rem 1rem 3rem;
-  color: #b9b39f;
-  font-size: 0.9rem;
-}
-
-@media (max-width: 640px) {
-  .door {
-    grid-template-columns: 1fr;
-    text-align: center;
-  }
-
-  .icon {
-    margin: 0 auto;
-  }
-}
+  </main>
+</body>
+</html>
