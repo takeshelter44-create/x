@@ -1,5 +1,5 @@
 ---
-layout: writing
+layout: escritos
 title: "reflexiones sobre el amor"
 order: 1
 ---
